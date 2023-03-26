@@ -1,9 +1,16 @@
 // ignore_for_file: non_constant_identifier_names
 
+import 'attributes.dart';
+
 class UnizimCollections {
   static final UsersDBCollection USERS_DB = UsersDBCollection();
   static final EventsDBCollection EVENTS_DB = EventsDBCollection();
   static final BracketDBCollection BRACKET_DB = BracketDBCollection();
+  static final DiscussionDBCollection DISCUSSION_DB = DiscussionDBCollection();
+  static final DiscussionTalksDBCollection DISCUSSION_TALKS_DB =
+      DiscussionTalksDBCollection();
+  static final DiscussionAssetsDBCollection DISCUSSION_ASSETS_DB =
+      DiscussionAssetsDBCollection();
 }
 
 // UsersDB Collection
@@ -33,4 +40,29 @@ class BracketDBCollection {
   final String roomInfo = 'roomInfo';
   final String lastMessage = 'lastMessage';
   final String stats = 'stats';
+}
+
+// DISCUSSION_DB Collection
+class DiscussionDBCollection {
+  DiscussionDBCollection();
+
+  final key$Discussion = DiscussionKeyDiscussionDBCollection();
+  final key$Stats = StatsKeyDiscussionDBCollection();
+
+  final String discussion = 'discussion';
+  final String stats = 'stats';
+}
+
+// discussions talks DB Collection
+class DiscussionTalksDBCollection {
+  DiscussionTalksDBCollection();
+
+  final key$Root = RootKeyDiscussionTalksDBCollection();
+}
+
+// discussions assets DB Collection
+class DiscussionAssetsDBCollection {
+  DiscussionAssetsDBCollection();
+
+  final key$Root = RootKeyDiscussionAssetsDBCollection();
 }

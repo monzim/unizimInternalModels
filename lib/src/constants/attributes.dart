@@ -22,6 +22,16 @@ class StatsKeyDiscussionDBCollection {
   final String shares = 'shares';
 }
 
+class RankingKeyDiscussionDBCollection {
+  const RankingKeyDiscussionDBCollection();
+
+  final String rank = 'rank';
+  final String score = 'score';
+  final String position = 'position';
+  final String previousScore = 'previousScore';
+  final String lastUpdate = 'lastUpdate';
+}
+
 // discussions talks DB Collection
 class RootKeyDiscussionTalksDBCollection {
   const RootKeyDiscussionTalksDBCollection();

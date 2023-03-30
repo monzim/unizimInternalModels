@@ -48,9 +48,11 @@ class DiscussionDBCollection {
 
   final key$Discussion = DiscussionKeyDiscussionDBCollection();
   final key$Stats = StatsKeyDiscussionDBCollection();
+  final key$Ranking = RankingKeyDiscussionDBCollection();
 
   final String discussion = 'discussion';
   final String stats = 'stats';
+  final String ranking = 'ranking';
 }
 
 // discussions talks DB Collection

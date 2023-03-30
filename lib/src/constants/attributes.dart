@@ -30,6 +30,7 @@ class RankingKeyDiscussionDBCollection {
   final String position = 'position';
   final String previousScore = 'previousScore';
   final String lastUpdate = 'lastUpdate';
+  final String deleted = 'deleted';
 }
 
 // discussions talks DB Collection

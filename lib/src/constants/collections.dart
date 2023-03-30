@@ -11,6 +11,8 @@ class UnizimCollections {
       DiscussionTalksDBCollection();
   static final DiscussionAssetsDBCollection DISCUSSION_ASSETS_DB =
       DiscussionAssetsDBCollection();
+  static final DiscussionUserStatsDBCollection DISCUSSION_USER_STATS_DB =
+      DiscussionUserStatsDBCollection();
 }
 
 // UsersDB Collection
@@ -67,4 +69,11 @@ class DiscussionAssetsDBCollection {
   DiscussionAssetsDBCollection();
 
   final key$Root = RootKeyDiscussionAssetsDBCollection();
+}
+
+// DISCUSSION_USER_STATS DB
+class DiscussionUserStatsDBCollection {
+  DiscussionUserStatsDBCollection();
+
+  final key$Root$StatsCollection = StatsKeyDiscussionDBCollection();
 }

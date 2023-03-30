@@ -11,4 +11,5 @@ class UnizimDatabases {
   static const String DISCUSSION_DB = 'discussion_db';
   static const String DISCUSSION_ASSETS_DB = 'discussion_assets_db';
   static const String DISCUSSION_TALKS_DB = 'discussion_talks_db';
+  static const String DISCUSSION_USER_STATS = 'discussion_user_stats';
 }

@@ -54,8 +54,8 @@ class RootKeyDiscussionAssetsDBCollection {
 
 //? BLOOD BANK DB AND COLLECTIONS
 
-class DonorsInfoKeyBloodBankDBCollection {
-  const DonorsInfoKeyBloodBankDBCollection();
+class DonarsInfoKeyBloodBankDBCollection {
+  const DonarsInfoKeyBloodBankDBCollection();
 
   final String uid = 'uid';
   final String group = 'group';

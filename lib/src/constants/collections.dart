@@ -88,10 +88,10 @@ class BloodBankDBCollection {
 
   final key$bloodRequests = BloodRequestsKeyBloodBankDBCollection();
   final key$donationsHistory = DonationsHistoryKeyBloodBankDBCollection();
-  final key$donorsInfo = DonorsInfoKeyBloodBankDBCollection();
+  final key$donarsInfo = DonarsInfoKeyBloodBankDBCollection();
   final key$donarStats = DonarStatsKeyBloodBankDBCollection();
 
-  final String donorsInfo = 'donors_info';
+  final String donarsInfo = 'donars_info';
   final String bloodRequests = 'blood_requests';
   final String donationsHistory = 'donations_history';
   final String donarStats = 'donar_stats';

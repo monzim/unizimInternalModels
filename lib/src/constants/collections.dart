@@ -13,6 +13,10 @@ class UnizimCollections {
       DiscussionAssetsDBCollection();
   static final DiscussionUserStatsDBCollection DISCUSSION_USER_STATS_DB =
       DiscussionUserStatsDBCollection();
+
+  // blood bank databases
+  static final BloodBankDBCollection BLOOD_BANK_DB = BloodBankDBCollection();
+  static final BloodChatDBCollection BLOOD_CHAT_DB = BloodChatDBCollection();
 }
 
 // UsersDB Collection
@@ -76,4 +80,26 @@ class DiscussionUserStatsDBCollection {
   DiscussionUserStatsDBCollection();
 
   final key$Root$StatsCollection = StatsKeyDiscussionDBCollection();
+}
+
+// BLOOD_BANK_DB blood bank databases
+class BloodBankDBCollection {
+  BloodBankDBCollection();
+
+  final key$bloodRequests = BloodRequestsKeyBloodBankDBCollection();
+  final key$donationsHistory = DonationsHistoryKeyBloodBankDBCollection();
+  final key$donorsInfo = DonorsInfoKeyBloodBankDBCollection();
+  final key$donarStats = DonarStatsKeyBloodBankDBCollection();
+
+  final String donorsInfo = 'donors_info';
+  final String bloodRequests = 'blood_requests';
+  final String donationsHistory = 'donations_history';
+  final String donarStats = 'donar_stats';
+}
+
+// BLOOD_REQUESTS_DB Collection
+class BloodChatDBCollection {
+  BloodChatDBCollection();
+
+  final key$Root = RootKeyBloodChatDBCollection();
 }

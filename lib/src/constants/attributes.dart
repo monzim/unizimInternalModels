@@ -51,3 +51,59 @@ class RootKeyDiscussionAssetsDBCollection {
   final String type = 'type';
   final String deleted = 'deleted';
 }
+
+//? BLOOD BANK DB AND COLLECTIONS
+
+class DonorsInfoKeyBloodBankDBCollection {
+  const DonorsInfoKeyBloodBankDBCollection();
+
+  final String uid = 'uid';
+  final String group = 'group';
+  final String location = 'location';
+  final String phone = 'phone';
+}
+
+class DonarStatsKeyBloodBankDBCollection {
+  const DonarStatsKeyBloodBankDBCollection();
+
+  final String uid = 'uid';
+  final String totalDonations = 'totalDonations';
+  final String totalBags = 'totalBags';
+  final String point = 'point';
+}
+
+class BloodRequestsKeyBloodBankDBCollection {
+  const BloodRequestsKeyBloodBankDBCollection();
+
+  final String uid = 'uid';
+  final String group = 'group';
+  final String location = 'location';
+  final String description = 'description';
+  final String patientName = 'patientName';
+  final String patientAge = 'patientAge';
+  final String patientGender = 'patientGender';
+  final String phone = 'phone';
+  final String bags = 'bags';
+  final String completed = 'completed';
+  final String deleted = 'deleted';
+}
+
+class DonationsHistoryKeyBloodBankDBCollection {
+  const DonationsHistoryKeyBloodBankDBCollection();
+
+  final String uid = 'uid';
+  final String requestID = 'requestID';
+  final String bag = 'bag';
+  final String date = 'date';
+  final String deleted = 'deleted';
+}
+
+//* BLOOD CHAT DB AND COLLECTIONS
+class RootKeyBloodChatDBCollection {
+  const RootKeyBloodChatDBCollection();
+
+  final String uid = 'uid';
+  final String msg = 'msg';
+  final String type = 'type';
+  final String deleted = 'deleted';
+}

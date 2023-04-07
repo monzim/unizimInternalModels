@@ -1,3 +1,19 @@
+// events databases
+class RootKeyEventsDBCollection {
+  const RootKeyEventsDBCollection();
+
+  final String title = 'title';
+  final String global = 'global';
+  final String type = 'type';
+  final String desc = 'desc';
+  final String image = 'image';
+  final String owner = 'owner';
+  final String time = 'time';
+  final String link = 'link';
+  final String bracket = 'bracket';
+  final String club = 'club';
+}
+
 class DiscussionKeyDiscussionDBCollection {
   const DiscussionKeyDiscussionDBCollection();
 

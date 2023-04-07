@@ -32,7 +32,9 @@ class UsersDBCollection {
 
 // EventsDB Collection
 class EventsDBCollection {
-  const EventsDBCollection();
+  EventsDBCollection();
+
+  final key$Root = RootKeyEventsDBCollection();
 
   final String activeEvents = 'active_events';
   final String historyEvents = 'history_events';

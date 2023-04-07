@@ -2,6 +2,8 @@
 
 class UnizimDatabases {
   static const String USERS_DB = 'users_db';
+
+  // events databases
   static const String EVENTS_DB = 'events_db';
 
   // bracket databases

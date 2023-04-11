@@ -22,4 +22,9 @@ class UnizimDatabases {
   // blood bank databases
   static const String BLOOD_BANK_DB = 'blood_bank_db';
   static const String BLOOD_CHAT_DB = 'blood_chat_db';
+
+  // counselling databases
+  static const String COUNSELLING_DB = 'counselling_db';
+  static const String COUNSELLING_APPOINTMENTS_DB =
+      'counselling_appointments_db';
 }

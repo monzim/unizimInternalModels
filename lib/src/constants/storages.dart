@@ -13,4 +13,7 @@ class UnizimStorageBucket {
   static const String eventsVIDEO = 'events_video';
   static const String eventsPDF = 'events_pdf';
   static const String eventsAUDIO = 'events_audio';
+
+  // counselling databases
+  static const String counsellingAssets = 'counselling_assets';
 }

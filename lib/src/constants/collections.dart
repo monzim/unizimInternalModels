@@ -17,6 +17,14 @@ class UnizimCollections {
   // blood bank databases
   static final BloodBankDBCollection BLOOD_BANK_DB = BloodBankDBCollection();
   static final BloodChatDBCollection BLOOD_CHAT_DB = BloodChatDBCollection();
+
+  // counselling databases
+  static final CounsellingDBCollection COUNSELLING_DB =
+      CounsellingDBCollection();
+
+  // counselling databases
+  static final CounsellingAppointmentsDBCollection COUNSELLING_APPOINTMENTS_DB =
+      CounsellingAppointmentsDBCollection();
 }
 
 // UsersDB Collection
@@ -104,4 +112,23 @@ class BloodChatDBCollection {
   BloodChatDBCollection();
 
   final key$Root = RootKeyBloodChatDBCollection();
+}
+
+//! COUNSELLING_DB Collections
+
+class CounsellingDBCollection {
+  CounsellingDBCollection();
+
+  final key$TimeSlots = TimeSlotsKeyCounsellingDBCollection();
+
+  final String timeSlots = 'time_slots';
+  final String assets = 'assets';
+}
+
+// COUNSELLING_APPOINTMENTS_DB Collections
+
+class CounsellingAppointmentsDBCollection {
+  CounsellingAppointmentsDBCollection();
+
+  final key$Root = RootKeyCounsellingAppointmentsDBCollection();
 }

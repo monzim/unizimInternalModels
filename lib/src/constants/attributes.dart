@@ -123,3 +123,51 @@ class RootKeyBloodChatDBCollection {
   final String type = 'type';
   final String deleted = 'deleted';
 }
+
+//* COUNSELLING_DB COLLECTIONS
+
+class TimeSlotsKeyCounsellingDBCollection {
+  const TimeSlotsKeyCounsellingDBCollection();
+
+  final String uid = 'uid';
+  final String saturday = 'saturday';
+  final String sunday = 'sunday';
+  final String monday = 'monday';
+  final String tuesday = 'tuesday';
+  final String wednesday = 'wednesday';
+  final String thursday = 'thursday';
+  final String friday = 'friday';
+
+  final String available = 'available';
+}
+
+// Counselling Booking DB Assets Collection
+class AssetsKeyCounsellingDBCollection {
+  const AssetsKeyCounsellingDBCollection();
+
+  final String appointmentID = 'appointmentID';
+  final String uid = 'uid';
+  final String url = 'url';
+  final String type = 'type';
+}
+
+// Counselling appointments DB Collection
+
+class RootKeyCounsellingAppointmentsDBCollection {
+  const RootKeyCounsellingAppointmentsDBCollection();
+
+  final String uid = 'uid';
+
+  final String startTime = 'startTime';
+  final String endTime = 'endTime';
+
+  final String topic = 'topic';
+  final String subject = 'subject';
+  final String summary = 'summary';
+  final String assets = 'assets';
+
+  final String status = 'status';
+  final String rejected = 'rejected';
+  final String conformed = 'conformed';
+  final String deleted = 'deleted';
+}

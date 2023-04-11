@@ -145,7 +145,7 @@ class TimeSlotsKeyCounsellingDBCollection {
 class AssetsKeyCounsellingDBCollection {
   const AssetsKeyCounsellingDBCollection();
 
-  final String appointmentID = 'appointmentID';
+  final String appointment = 'appointment';
   final String uid = 'uid';
   final String url = 'url';
   final String type = 'type';

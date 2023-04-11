@@ -120,6 +120,7 @@ class CounsellingDBCollection {
   CounsellingDBCollection();
 
   final key$TimeSlots = TimeSlotsKeyCounsellingDBCollection();
+  final key$Assets = AssetsKeyCounsellingDBCollection();
 
   final String timeSlots = 'time_slots';
   final String assets = 'assets';

@@ -27,4 +27,7 @@ class UnizimDatabases {
   static const String COUNSELLING_DB = 'counselling_db';
   static const String COUNSELLING_APPOINTMENTS_DB =
       'counselling_appointments_db';
+
+  // user_notification databases
+  static const String USER_NOTIFICATION_DB = 'user_notification_db';
 }

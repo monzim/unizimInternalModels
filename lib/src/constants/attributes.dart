@@ -171,3 +171,19 @@ class RootKeyCounsellingAppointmentsDBCollection {
   final String conformed = 'conformed';
   final String deleted = 'deleted';
 }
+
+// user_notification DB Collection
+
+class RootKeyUserNotificationDBCollection {
+  const RootKeyUserNotificationDBCollection();
+
+  final String id = 'id';
+  final String title = 'title';
+  final String msg = 'msg';
+  final String type = 'type';
+  final String link = 'link';
+  final String route = 'route';
+  final String seen = 'seen';
+  final String avatar = 'avatar';
+  final String deleted = 'deleted';
+}

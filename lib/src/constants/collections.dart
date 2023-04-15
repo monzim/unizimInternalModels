@@ -25,6 +25,10 @@ class UnizimCollections {
   // counselling databases
   static final CounsellingAppointmentsDBCollection COUNSELLING_APPOINTMENTS_DB =
       CounsellingAppointmentsDBCollection();
+
+  // user_notification databases
+  static final UserNotificationDBCollection USER_NOTIFICATION_DB =
+      UserNotificationDBCollection();
 }
 
 // UsersDB Collection
@@ -132,4 +136,12 @@ class CounsellingAppointmentsDBCollection {
   CounsellingAppointmentsDBCollection();
 
   final key$Root = RootKeyCounsellingAppointmentsDBCollection();
+}
+
+// USER_NOTIFICATION_DB Collections
+
+class UserNotificationDBCollection {
+  UserNotificationDBCollection();
+
+  final key$Root = RootKeyUserNotificationDBCollection();
 }

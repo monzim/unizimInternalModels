@@ -5,6 +5,7 @@ class UnizimStorageBucket {
   static const String bracketsVIDEO = 'brackets_video';
   static const String bracketsPDF = 'brackets_pdf';
   static const String bracketsAUDIO = 'brackets_audio';
+  static const String bracketFILE = 'bracket_file';
 
   static const String discussionsPICTURE = 'discussions_picture';
   static const String discussionsVIDEO = 'discussions_video';

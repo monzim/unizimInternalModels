@@ -6,4 +6,6 @@ void main() {
   final val2 = UnizimCollections.USERS_DB.users;
 
   print(model.toJsonString());
+  print(val);
+  print(val2);
 }

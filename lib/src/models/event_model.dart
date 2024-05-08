@@ -1,4 +1,4 @@
-import 'package:dart_appwrite/models.dart';
+import 'package:appwrite/models.dart';
 import 'package:unizim_models/unizim_models.dart';
 
 class EventModel {

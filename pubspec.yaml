@@ -2,15 +2,12 @@ name: unizim_models
 description: This is the repository for my personal project. It include some
   model for multiple use case in my project functions
 
-version: 0.0.2
+version: 0.0.3
 repository: https://github.com/Monzim/unizimInternalModels.git
 
 environment:
   sdk: ">=2.17.0 <3.0.0"
 
-dependencies:
-  dart_appwrite: ^11.0.2
-
 dev_dependencies:
-  lints: ^2.0.0
-  test: ^1.21.0
+  lints: ^3.0.0
+  test: ^1.25.5

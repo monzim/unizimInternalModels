@@ -1,4 +1,3 @@
-import 'package:dart_appwrite/models.dart';
 import 'package:unizim_models/unizim_models.dart';
 
 class EventModel {
@@ -61,7 +60,7 @@ class EventModel {
   }
 }
 
-EventModel convertToEventMode(Document document) {
+EventModel convertToEventMode(dynamic document) {
   final doc = document;
   final event = EventModel(
     eventID: doc.$id,

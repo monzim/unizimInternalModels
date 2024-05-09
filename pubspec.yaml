@@ -2,10 +2,9 @@ name: unizim_models
 description: This is the repository for my personal project. It include some
   model for multiple use case in my project functions
 
-version: 0.0.5
-
+version: 0.0.7
 environment:
-  sdk: ^3.0.0
+  sdk: ^3.3.4
 
 dev_dependencies:
   lints: ^3.0.0

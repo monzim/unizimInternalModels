@@ -2,8 +2,7 @@ name: unizim_models
 description: This is the repository for my personal project. It include some
   model for multiple use case in my project functions
 
-version: 0.0.4
-repository: https://github.com/Monzim/unizimInternalModels.git
+version: 0.0.5
 
 environment:
   sdk: ^3.0.0

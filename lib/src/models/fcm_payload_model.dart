@@ -62,6 +62,7 @@ class FCMPayload {
       "ttl": ttl,
       "icon": icon,
       "color": color,
+      "route": route,
       "imageUrl": imageUrl,
     };
   }
